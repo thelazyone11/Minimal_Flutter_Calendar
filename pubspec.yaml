@@ -23,8 +23,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  table_calendar: ^2.2.3
+  table_calendar:
+    git:
+      url: https://github.com/thelazyone11/table_calendar
   intl: ^0.16.1
+  provider: ^4.1.3
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -62,10 +65,11 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
+  fonts:
+    - family: Baloo2
+      fonts:
+        - asset: assets/fonts/Baloo2-Medium.ttf
+          weight: 500
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro

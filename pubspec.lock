@@ -102,6 +102,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.1.8"
+  nested:
+    dependency: transitive
+    description:
+      name: nested
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.0.4"
   path:
     dependency: transitive
     description:
@@ -116,6 +123,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.4.0"
+  provider:
+    dependency: "direct main"
+    description:
+      name: provider
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "4.3.1"
   quiver:
     dependency: transitive
     description:
@@ -166,9 +180,11 @@ packages:
   table_calendar:
     dependency: "direct main"
     description:
-      name: table_calendar
-      url: "https://pub.dartlang.org"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "006a5ca63a11001c9c1853e5bdcc8abeb9c21e79"
+      url: "https://github.com/thelazyone11/table_calendar"
+    source: git
     version: "2.2.3"
   term_glyph:
     dependency: transitive
@@ -207,3 +223,4 @@ packages:
     version: "3.6.1"
 sdks:
   dart: ">=2.7.0 <3.0.0"
+  flutter: ">=1.16.0"
